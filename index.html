@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Tours</title>
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fonts/Satisfy-Regular.ttf">
+    <link rel="stylesheet" href="icon/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Satisfy&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/parallax.js-1.5.0/parallax.js-1.5.0/parallax.min.js"></script>
+    <link rel="stylesheet" href="css/reponsive.css">
+</head>
+<body>
+    <header class="header">
+        <ul class="contact">
+            <li class="contact--item">
+                <a href="mailto:tranhuuloc4423@gmail.com" class="contact--item__link">
+                    <i class="far fa-envelope"></i>
+                    <span>tranhuuloc4423@gmail.com</span>
+                </a>
+            </li>
+            <li class="contact--item">
+                <a href="tel:+84362246103" class="contact--item__link">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>0362246103</span>
+                </a>
+            </li>
+            <li class="contact--item">
+                <a href="https://www.google.rs/maps/place/Charging+Bull/@40.7055242,-74.0133806,20z/data=!4m5!3m4!1s0x0:0xc7db393ae1eff521!8m2!3d40.7055537!4d-74.0134436" target="_blank" class="contact--item__link">
+                    <i class="ti-location-pin"></i>
+                    <span>Broadway & Morris St, New York</span>
+                </a>
+            </li>
+        </ul>
+        <div class="header-social__wrapper">
+            <div class="header-social">
+                <a href="#" class="header-social__icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="header-social__icon">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a href="#" class="header-social__icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="header-social__icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="header--lang">
+                <a href="#" class="header-lang__container">
+                    <span>English</span>
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="header-social__lang-list">
+                    <li class="header-social__lang-item"><a href="#" class="header-social__lang-item-link">Vietnamese</a></li>
+                    <li class="header-social__lang-item"><a href="#" class="header-social__lang-item-link">Japanese</a></li>
+                    <li class="header-social__lang-item"><a href="#" class="header-social__lang-item-link">Chinese</a></li>
+                </ul>
+            </div>
+            <div class="header-social__account" onclick="showModal();">
+                <i class="far fa-user-circle"></i>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <a href="#" class="nav-logo__link">
+            <img src="./images/logo.png" alt="" class="nav-logo__img">
+        </a>
+        <div class="nav-dropdown">
+            <ul class="dropdown__list flexbox">
+                <li class="dropdown__item">
+                    <a href="#" class="dropdown__item--link">
+                        Home
+                        <span class="bottom__line--effect dropdown__item--add"></span>
+                        <div class="dropdown-menu">
+                            <ul class="dropdown-menu__list">
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        Travel Agency
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Winter Holidays
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Exotic Destinations
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Summer Holidays
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        City Tours
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        New Year Trips
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Destinations Carousel
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li class="dropdown__item">
+                    <a href="#" class="dropdown__item--link">
+                        Pages
+                        <span class="bottom__line--effect dropdown__item--add"></span>
+                        <div class="dropdown-menu">
+                            <ul class="dropdown-menu__list">
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        About Us
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        What We Offer
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Our Team
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Get In Touch
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        FAQ Page
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Coming Soon
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li class="dropdown__item">
+                    <a href="#" class="dropdown__item--link">
+                        Destinations
+                        <span class="bottom__line--effect dropdown__item--add"></span>
+                        <div class="dropdown-menu">
+                            <ul class="dropdown-menu__list">
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        Destination List
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Destination Slider
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Destination Item
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li class="dropdown__item">
+                    <a href="#" class="dropdown__item--link">
+                        Tours
+                        <span class="bottom__line--effect dropdown__item--add"></span>
+                        <div class="dropdown-menu">
+                            <ul class="dropdown-menu__list">
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        Standard List
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Gallery List
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Split List
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Tour Item
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li class="dropdown__item">
+                    <a href="#" class="dropdown__item--link">
+                        Blog
+                        <span class="bottom__line--effect dropdown__item--add"></span>
+                        <div class="dropdown-menu">
+                            <ul class="dropdown-menu__list">
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        Blog Masonry
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Blog Standard
+                                        <i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Right Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Left Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Without Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Post Types
+                                        <i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Right Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Left Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Without Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li class="dropdown__item">
+                    <a href="#" class="dropdown__item--link">
+                        Shop
+                        <span class="bottom__line--effect dropdown__item--add"></span>
+                        <div class="dropdown-menu">
+                            <ul class="dropdown-menu__list">
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        Product List
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Product Single
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Shop Layouts
+                                        <i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Right Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Left Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Without Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Shop Pages
+                                        <i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-menu-child">
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Right Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Left Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-menu-child__item">
+                                                <a href="#" class="dropdown-menu-child__item-link">
+                                                    Without Sidebar
+                                                    <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li class="dropdown__item">
+                    <a href="#" class="dropdown__item--link">
+                        Elements
+                        <span class="bottom__line--effect dropdown__item--add"></span>
+                        <div class="dropdown-menu">
+                            <ul class="dropdown-menu__list">
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        Travel Agency
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Winter Holidays
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Exotic Destinations
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Summer Holidays
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        City Tours
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        New Year Trips
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu__item">
+                                    <a href="#" class="dropdown-menu__item--link">
+                                        <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                        Destinations Carousel
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-sidebar">
+            <i class="ti-menu side-bar__menu-icon" onclick="openSideBar();"></i>
+            <div class="sidebar-box">
+                <div class="sidebar-box__container">
+                    <div class="sidebar-box__icon-close">
+                        <i class="fas fa-times" onclick="closeSideBar();"></i>
+                    </div>
+                    <div class="sidebar-box__header">
+                        <img src="./images/logo.png" alt="">
+                        <img src="./images/sidearea-img-2.png" alt="">
+                    </div>
+                    <div class="sidebar-box__body">
+                        <a href="https://www.google.rs/maps/place/New+York,+NY,+USA/@40.7113756,-74.0127477,14.43z/data=!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728" target="__blank" class="sidebar-box__body-li">
+                            <img src="./images/sidearea-img.jpg" alt="">
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipis cing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis theme natoque</p>
+                    </div>
+                    <h2 class="sidebar-box__footer-header">Find Your Destination</h2>
+                    <div class="sidebar-box__footer-search">
+                        <input type="text" class="sidebar-box__footer-search-input" placeholder="Search...">
+                        <button type="submit" class="sidebar-box__footer-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="nav__reponsive">
+        <div class="nav__reponsive-menu" onclick="openNavReponsive();">
+            <i class="ti-menu"></i>
+        </div>
+        <a href="#" class="nav-logo__link">
+            <img src="./images/logo_reponsive.png" alt="" class="nav-logo__img">
+        </a>
+        <div class="header-social__account" onclick="showModal();">
+            <i class="far fa-user-circle"></i>
+        </div>
+    </div>
+    <div class="nav-dropdown__reponsive">
+        <ul class="dropdown__list">
+            <li class="dropdown__item">
+                <a href="#" class="dropdown__item--link">
+                    Home
+                    <span class="bottom__line--effect dropdown__item--add"></span>
+                </a>
+                <div class="dropdown__item--link-icon">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-menu__list">
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                Travel Agency
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Winter Holidays
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Exotic Destinations
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Summer Holidays
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                City Tours
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                New Year Trips
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Destinations Carousel
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <a href="#" class="dropdown__item--link">
+                    Pages
+                    <span class="bottom__line--effect dropdown__item--add"></span>
+                </a>
+                <div class="dropdown__item--link-icon">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-menu__list">
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                About Us
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                What We Offer
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Our Team
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Get In Touch
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                FAQ Page
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Coming Soon
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <a href="#" class="dropdown__item--link">
+                    Destinations
+                    <span class="bottom__line--effect dropdown__item--add"></span>
+                </a>
+                <div class="dropdown__item--link-icon">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-menu__list">
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                Destination List
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Destination Slider
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Destination Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <a href="#" class="dropdown__item--link">
+                    Tours
+                    <span class="bottom__line--effect dropdown__item--add"></span>
+                </a>
+                <div class="dropdown__item--link-icon">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-menu__list">
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                Standard List
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Gallery List
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Split List
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Tour Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <a href="#" class="dropdown__item--link">
+                    Blog
+                    <span class="bottom__line--effect dropdown__item--add"></span>
+                </a>
+                <div class="dropdown__item--link-icon">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-menu__list">
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                Blog Masonry
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Blog Standard
+                                <i class="fas fa-caret-right"></i>
+                                <ul class="dropdown-menu-child">
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Right Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Left Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Without Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Post Types
+                                <i class="fas fa-caret-right"></i>
+                                <ul class="dropdown-menu-child">
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Right Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Left Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Without Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <a href="#" class="dropdown__item--link">
+                    Shop
+                    <span class="bottom__line--effect dropdown__item--add"></span>
+                </a>
+                <div class="dropdown__item--link-icon">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-menu__list">
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                Product List
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Product Single
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Shop Layouts
+                                <i class="fas fa-caret-right"></i>
+                                <ul class="dropdown-menu-child">
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Right Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Left Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Without Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Shop Pages
+                                <i class="fas fa-caret-right"></i>
+                                <ul class="dropdown-menu-child">
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Right Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Left Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-menu-child__item">
+                                        <a href="#" class="dropdown-menu-child__item-link">
+                                            Without Sidebar
+                                            <span class="bottom__line--effect dropdown-menu-child--add"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <a href="#" class="dropdown__item--link">
+                    Elements
+                    <span class="bottom__line--effect dropdown__item--add"></span>
+                </a>
+                <div class="dropdown__item--link-icon">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-menu__list">
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                Travel Agency
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Winter Holidays
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Exotic Destinations
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Summer Holidays
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                City Tours
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                New Year Trips
+                            </a>
+                        </li>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="dropdown-menu__item--link">
+                                <span class="bottom__line--effect dropdown--menu__item--add"></span>
+                                Destinations Carousel
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="header--background-container">
+        <div class="header--background">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__full-width">
+                        <div class="box-content box-content__main">
+                            <div class="box-content__header">
+                                <div class="box-content__header-title">The Best</div>
+                                    <h1 class="box-content__header-text">Travel Experts</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <!-- main content -->
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__full-width">
+                    <!-- destination -->
+                    <div class="box-content">
+                        <div class="box-content__header">
+                            <div class="box-content__header-title">Tropical</div>
+                                <h1 class="box-content__header-text">Exotic Places</h1>
+                            <div class="box-content__header-desc">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean ipsum amet eget
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-destination">
+                        <div class="grid__col-2-modifier grid__col-4">
+                            <div class="main-destination__content">
+                                <a href="#" class="main-destination__link">
+                                    <img src="./images/h1-custom-icon-img-1.png" class="main-destination__content-icon">
+                                </a>
+                                </img>
+                                <div class="main-destination__content-text">
+                                    <div class="main-destination__content-title">
+                                        Restaurants
+                                    </div>
+                                    <div class="main-destination__content-desc">
+                                        Aenean commodo ligula eget dolor. Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col-2-modifier grid__col-4">
+                            <div class="main-destination__content">
+                                <a href="#" class="main-destination__link">
+                                    <img src="./images/h1-custom-icon-img-2.png" class="main-destination__content-icon">
+                                </a>
+                                </img>
+                                <div class="main-destination__content-text">
+                                    <div class="main-destination__content-title">
+                                        Sightseeing
+                                    </div>
+                                    <div class="main-destination__content-desc">
+                                        Aenean commodo ligula eget dolor. Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col-2-modifier grid__col-4">
+                            <div class="main-destination__content">
+                                <a href="#" class="main-destination__link">
+                                    <img src="./images/h1-custom-icon-img-3.png" class="main-destination__content-icon">
+                                </a>
+                                </img>
+                                <div class="main-destination__content-text">
+                                    <div class="main-destination__content-title">
+                                        Shops & Boutiques
+                                    </div>
+                                    <div class="main-destination__content-desc">
+                                        Aenean commodo ligula eget dolor. Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col-2-modifier grid__col-4">
+                            <div class="main-destination__content">
+                                <a href="#" class="main-destination__link">
+                                    <img src="./images/h1-custom-icon-img-4.png" class="main-destination__content-icon">
+                                </a>
+                                </img>
+                                <div class="main-destination__content-text">
+                                    <div class="main-destination__content-title">
+                                        Where to Stay
+                                    </div>
+                                    <div class="main-destination__content-desc">
+                                        Aenean commodo ligula eget dolor. Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portrait-container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__full-width">
+                        <div class="portrait-wrapper">
+                            <div class="portrait-item">
+                                <div class="portrait-item-img">
+                                    <p class="portrait-item-text">
+                                        50% Off Adventure on Sale
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="portrait-item">
+                                <div class="portrait-item-img">
+                                    <p class="portrait-item-text">
+                                        50% Off Adventure on Sale
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="portrait-item">
+                                <div class="portrait-item-img">
+                                    <p class="portrait-item-text">
+                                        50% Off Adventure on Sale
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="portrait-item">
+                                <div class="portrait-item-img">
+                                    <p class="portrait-item-text">
+                                        50% Off Adventure on Sale
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="portrait-item">
+                                <div class="portrait-item-img">
+                                    <p class="portrait-item-text">
+                                        50% Off Adventure on Sale
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="portrait-item">
+                                <div class="portrait-item-img">
+                                    <p class="portrait-item-text">
+                                        50% Off Adventure on Sale
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__full-width">
+                    <div class="box-content">
+                        <div class="box-content__header">
+                            <div class="box-content__header-title">Descriptions</div>
+                                <h1 class="box-content__header-text">Tour Reviews</h1>
+                            <div class="box-content__header-desc">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean ipsum amet eget
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour-slider">
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg1">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg2">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg3">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg4">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg5">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg6">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg7">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg8">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg9">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg10">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg11">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tour-slider__container">
+                            <div class="tour-slider__container-bg">
+                                <div class="tour-slider__container-bg--img slider-bg12">
+                                </div>
+                            </div>
+                            <div class="tour-slider__container-box">
+                                <h3 class="tour-slider__container-box__title">
+                                    Actice Winter
+                                </h3>
+                                <p class="tour-slider__container-box__desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi tempora dicta voluptate ab corrupti assumenda alias porro? Sunt aut eius neque eveniet iure, animi mollitia vel provident nesciunt ullam?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__full-width">
+                    <div class="box-content">
+                        <div class="box-content__header">
+                            <div class="box-content__header-title">Try Now</div>
+                                <h1 class="box-content__header-text">Beach Holidays</h1>
+                        </div>
+                    </div>
+                    <div class="section-media">
+                        <div class="section-media__thumb">
+                            <img src="./images/beach-background.jpg" alt="" class="section-media__thumb-img">
+                            <div class="section-media__thumb-btn" onclick="toggle();">
+                                <img src="./images/play-button.png" alt="">
+                            </div>
+                        </div>
+                        <div class="videoPlayer">
+                            <video controls class="myvideo">
+                                <source src="./media/Sea - 4006.mp4" type="video/mp4">
+                            </video>
+                            <div class="section-media__close-btn" onclick="toggle();">
+                                <i class="far fa-times-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-meida__desc">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis sit amet, consectetuer adipiscing elit Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit ame.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-content">
+            <div class="grid">
+                <div class="box-content__header">
+                    <div class="box-content__header-title">Choose Your</div>
+                        <h1 class="box-content__header-text">Destinations</h1>
+                    <div class="box-content__header-desc">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean ipsum amet eget
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="destination-portrait">
+                <div class="grid__col-3 grid__col-full-modifier">
+                    <div class="destination-portrait-item">
+                        <div class="destination-portrait-item--img portrait-bg1">
+                        </div>
+                        <div class="destination-portrait-item-desc">
+                            Netherlands
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__col-3 grid__col-full-modifier">
+                    <div class="destination-portrait-item">
+                        <div class="destination-portrait-item--img portrait-bg2">
+                        </div>
+                        <div class="destination-portrait-item--active">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="destination-portrait-item-desc">
+                            Greece
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__col-3 grid__col-full-modifier">
+                    <div class="destination-portrait-item">
+                        <div class="destination-portrait-item--img portrait-bg3">
+                        </div>
+                        <div class="destination-portrait-item-desc">
+                            Italy
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box__join">
+            <div class="grid">
+                <div class="grid__full-width">
+                    <div class="box__join--container">
+                        <div class="box__join--text">Subscribe Now and Quench Your Wanderlust!</div>
+                        <a href="#" class="box__join--btn btn">join now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__col-4 grid__col-2-modifier-small grid__col-full-modifier">
+                    <div class="logo-footer">
+                        <img src="./images/logo.png" class="logo-footer__img"></img>
+                        <p class="logo-footer__text">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</p>
+                    </div>
+                    <ul class="contact contact--footer">
+                        <li class="contact--item">
+                            <a href="mailto:tranhuuloc4423@gmail.com" class="contact--item__link contact--item__link-footer">
+                                <i class="far fa-envelope"></i>
+                                <span>tranhuuloc4423@gmail.com</span>
+                            </a>
+                        </li>
+                        <li class="contact--item">
+                            <a href="tel:+84362246103" class="contact--item__link contact--item__link-footer">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>0362246103</span>
+                            </a>
+                        </li>
+                        <li class="contact--item">
+                            <a href="https://www.google.rs/maps/place/Charging+Bull/@40.7055242,-74.0133806,20z/data=!4m5!3m4!1s0x0:0xc7db393ae1eff521!8m2!3d40.7055537!4d-74.0134436" target="_blank" class="contact--item__link contact--item__link-footer">
+                                <i class="ti-location-pin"></i>
+                                <span>Broadway & Morris St, New York</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__col-4 grid__col-2-modifier-small grid__col-full-modifier">
+                    <ul class="footer--post-list">
+                        <h3 class="footer--post-header">
+                            Our Recent Posts
+                        </h3>
+                        <li class="footer--post-item">
+                            <a href="#" class="footer--post-item__link"><span>Visit Thailand, Bali And China</span></a>
+                            <a href="#" class="footer--post-item__link">September 7, 2016</a>
+                        </li>
+                        <li class="footer--post-item">
+                            <a href="#" class="footer--post-item__link"><span>The Sound Of Our Jungle</span></a>
+                            <a href="#" class="footer--post-item__link">September 7, 2016</a>
+                        </li>
+                        <li class="footer--post-item">
+                            <a href="#" class="footer--post-item__link"><span>New Year, New Resolutions!</span></a>
+                            <a href="#" class="footer--post-item__link">September 7, 2016</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__col-4 grid__col-2-modifier-small grid__col-full-modifier">
+                    <div class="footer-register">
+                        <h3 class="footer-register__header">Subscribe to our Newsletter</h3>
+                        <div class="footer-register__desc">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</div>
+                        <form class="form--inner" action="#">
+                            <div class="form--item footer-register__form">
+                                <span class="form--item__icon">
+                                    <i class="far fa-user"></i>
+                                </span>
+                                <input type="text" placeholder="Name" class="form--item__input">
+                            </div>
+                            <div class="form--item footer-register__form">
+                                <span class="form--item__icon">
+                                    <i class="far fa-envelope"></i>
+                                </span>
+                                <input type="email" placeholder="Email" class="form--item__input" required>
+                            </div>
+                            <div class="form--item footer-register__form">
+                                <button class="btn footer-register__form-btn">subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="grid__col-4 grid__col-2-modifier-small grid__col-full-modifier">
+                    <div class="footer__about">
+                        <h3 class="footer-register__header">Our Instagram</h3>
+                        <div class="footer-register__desc">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__row">
+                <div class="grid__full-width">
+                    <div class="footer-copyright">
+                        <span>Powered by @</span>
+                        <a href="#" class="footer-copyright__link">Lộc-chan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal form register/log-in -->
+    <div class="modal-form-container" onclick="closeModal();">
+        <div class="modal-form form-register" id="register">
+            <div class="form-btn__switch">
+                <div class="form-btn__switch--inner">
+                    <button class="form-btn__switch-login form-btn__switch-grl" onclick="openLogin();">login</button>
+                </div>
+                <div class="form-btn__switch--inner">
+                    <button class="form-btn__switch-register form-btn__switch-grl" onclick="openRegister();">register</button>
+                </div>
+            </div>
+            <div class="modal-form__title">
+                <div class="modal-form__title-head">Register Now!</div>
+                <div class="modal-form__title-desc">Join the SetSail community today & set up a free account.</div>
+            </div>
+            <form class="form--inner" action="#">
+                <div class="form--item">
+                    <span class="form--item__icon">
+                        <i class="far fa-user"></i>
+                    </span>
+                    <input type="text" placeholder="Name" class="form--item__input">
+                </div>
+                <div class="form--item">
+                    <span class="form--item__icon">
+                        <i class="far fa-envelope"></i>
+                    </span>
+                    <input type="email" placeholder="Email" class="form--item__input" required>
+                </div>
+                <div class="form--item">
+                    <span class="form--item__icon">
+                        <i class="ti-lock"></i>
+                    </span>
+                    <input type="text" placeholder="Password" class="form--item__input">
+                </div>
+                <div class="form--item">
+                    <span class="form--item__icon">
+                        <i class="ti-lock"></i>
+                    </span>
+                    <input type="text" placeholder="Repeat Password" class="form--item__input">
+                </div>
+                <div class="form--item form__btn-res-sign">
+                    <button class="btn">register</button>
+                </div>
+            </form>
+        </div>
+        <div class="modal-form form-login" id="login">
+            <div class="form-btn__switch">
+                <div class="form-btn__switch--inner">
+                    <button class="form-btn__switch-login form-btn__switch-grl" onclick="openLogin();">login</button>
+                </div>
+                <div class="form-btn__switch--inner">
+                    <button class="form-btn__switch-register form-btn__switch-grl" onclick="openRegister();">register</button>
+                </div>
+            </div>
+            <div class="modal-form__title">
+                <div class="modal-form__title-head">Register Now!</div>
+                <div class="modal-form__title-desc">Join the SetSail community today & set up a free account.</div>
+            </div>
+            <form class="form--inner" action="#">
+                <div class="form--item">
+                    <span class="form--item__icon">
+                        <i class="far fa-user"></i>
+                    </span>
+                    <input type="text" placeholder="Name" class="form--item__input">
+                </div>
+                <div class="form--item">
+                    <span class="form--item__icon">
+                        <i class="ti-lock"></i>
+                    </span>
+                    <input type="text" placeholder="Password" class="form--item__input">
+                </div>
+                <label class="form--item__checkbox">
+                    <input type="checkbox" name="rememberme" checked="checked" id="rememberme">
+                    <span class="checkmark"></span>
+                    <span>Remember me</span>
+                </label>
+                <div class="form--item__lost-pass">
+                    <span>Lost your password ?</span>
+                </div>
+                <div class="form--item form__btn-res-sign">
+                    <button class="btn">sign in</button>
+                </div>
+                <div class="form--item__sign">
+                    <div class="form--item__sign-title">Sign in with Facebook or Google+</div>
+                    <div class="form--item__sign-body">
+                        <div class="form--item__sign-body-inner">
+                            <button type="submit" class="form--item__sign-fb form--item__sign-btn">facebook</button>
+                        </div>
+                        <div class="form--item__sign-body-inner">
+                            <button type="submit" class="form--item__sign-gg form--item__sign-btn">google+</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    
+    <!-- link js -->
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./app.js"></script>
+</body>
+</html>
